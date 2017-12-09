@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:id="@+id/id_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp">
+
+        <ImageView
+            android:id="@+id/id_image_item_statistics_without"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp" />
+
+        <TextView
+            android:id="@+id/id_txt_item_statistics_title_without"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="4dp"
+            android:layout_toEndOf="@+id/id_image_item_statistics_without"
+            tools:text="@string/views" />
+
+        <TextView
+            android:id="@+id/id_txt_item_statistics_count_without"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="4dp"
+            android:layout_toEndOf="@+id/id_txt_item_statistics_title_without"
+            tools:text="100500" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

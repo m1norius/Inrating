@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Insta</string>
+    <string name="login">Login</string>
+    <string name="Password">Password</string>
+    <string name="views">Просмотры</string>
+    <string name="postStatistics">Статистика поста</string>
+</resources>
